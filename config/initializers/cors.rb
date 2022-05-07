@@ -7,8 +7,8 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins "http://www.markmomot.com"
+    origins "https://www.markmomot.com "
 
-    resource "*", headers: :any, methods: [:get, :post, :put, :patch, :delete], credentials: true
+    resource "*", headers: :any, methods: [:get, :post, :put, :patch, :delete]
   end
 end
