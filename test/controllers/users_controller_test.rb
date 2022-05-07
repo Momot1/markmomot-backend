@@ -1,6 +1,6 @@
 require "test_helper"
 
-class BirdTest < ActiveSupport::TestCase
+class UsersControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end
